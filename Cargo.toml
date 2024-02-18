@@ -7,3 +7,9 @@ edition = "2021"
 
 [dependencies]
 rocket = { version = "0.5.0", features = ["json"] }
+rusqlite = { version = "0.30.0", features = ["chrono"] }
+rusqlite_migration = { version = "1.1.0", features = ["from-directory"] }
+r2d2_sqlite = "0.23.0"
+r2d2 = "0.8.8"
+include_dir = "0.7.3"
+lazy_static = "1.4.0"
